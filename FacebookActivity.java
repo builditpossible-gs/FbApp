@@ -121,7 +121,7 @@ public class FacebookActivity extends AppCompatActivity {
         Button 4Button = (Button) findViewById(R.id.nav_4);
         Button 5Button = (Button) findViewById(R.id.nav_5);
 
-        youtubeButton.setOnClickListener(new View.OnClickListener() {
+        1Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 AppEventsLogger loggerDownload = AppEventsLogger.newLogger(getApplicationContext());
@@ -135,7 +135,7 @@ public class FacebookActivity extends AppCompatActivity {
             }
         });
 
-        FacebookButton.setOnClickListener(new View.OnClickListener() {
+        2Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 AppEventsLogger loggerDownload = AppEventsLogger.newLogger(getApplicationContext());
@@ -150,7 +150,7 @@ public class FacebookActivity extends AppCompatActivity {
             }
         });
 
-        shopButton.setOnClickListener(new View.OnClickListener() {
+        3Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 AppEventsLogger loggerDownload = AppEventsLogger.newLogger(getApplicationContext());
@@ -165,7 +165,7 @@ public class FacebookActivity extends AppCompatActivity {
             }
         });
 
-        aboutButton.setOnClickListener(new View.OnClickListener() {
+        4Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 AppEventsLogger loggerDownload = AppEventsLogger.newLogger(getApplicationContext());
@@ -180,7 +180,7 @@ public class FacebookActivity extends AppCompatActivity {
             }
         });
 
-        shareButton.setOnClickListener(new View.OnClickListener() {
+        5Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 AppEventsLogger loggerDownload = AppEventsLogger.newLogger(getApplicationContext());
